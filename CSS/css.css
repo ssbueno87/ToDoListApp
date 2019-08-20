@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap') ;
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{display: block; margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}img{display: block ;}
+
+
+.mainWrap {
+    margin: 0 auto ;
+    width: 55vw ;
+    }
+
+
+.list {
+    padding: 5em ;
+    font-size: 1.5rem ;
+    font-family: 'Rock Salt', cursive;
+    line-height: 1.5 ;
+    color: #006400;
+    background-color: #a9a9a9 ;
+    
+    }
+
+.buttons {
+    width: 55vw ;
+    height: 5rem ;
+    background-color: rgba(0,0,0,.6) ;
+    position: fixed ;
+    display: flex ;
+    }
+
+.list li {
+    cursor: pointer ;
+    position: relative ;
+}
+li+li{
+    border-top: 2px solid #006400 ;
+}
+
+
+button {
+    height: 100px ;
+    width: 100px ;
+    border-radius: 100% ;
+    font-size: 20px ;
+    position: relative ;
+    top: -65px ;
+    background-color: #006400 ;
+    border: 0 ;
+    margin-left: 2% ;
+    cursor: pointer ;
+    }
+
+.done {
+    padding-left: 20px ;
+    text-decoration: line-through ;
+    color: red ;
+    transition: all .3s ;
+}
+
+
+
+.delete {
+    width: 1.5rem ;
+    height: 1.5rem ;
+    background-color: #ff0000 ;
+    position:absolute ;
+    right: 0 ;
+    top: 8px ;
+    background-image: url(garbage.svg) ;
+    background-repeat: no-repeat ;
+    background-size: 80% ;
+    background-position: center ;
+
+    }
